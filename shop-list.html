@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Font Awsome -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!-- Google fonts -->
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+      <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+      <link rel="stylesheet" href="assets/css/style.css">
+      <title>Decor</title>
+   </head>
+   <body>
+      <header>
+         <div class="container">
+            <div class="row align-items-center">
+               <div class="col-3 d-lg-none">
+                  <a class="position-relative" href="javascript:void(0)" onclick="openNav()">
+                  <span class="icon-menu"></span>
+                  </a>
+               </div>
+               <div class="col-6 col-md-6 col-lg-9 text-md-center">
+                  <a class="logo" href="javascript:void(0)"> <img src="assets/images/logo.png"></a>
+                  <ul class="nav-left">
+                     <li>
+                        <a class="position-relative" href="javascript:void(0)">POČETNA </a>
+                     </li>
+                     <li>
+                        <a class="position-relative" href="javascript:void(0)">TRGOVINA</a>
+                     </li>
+                     <li>
+                        <a class="position-relative" href="javascript:void(0)">AKCIJA </a>
+                     </li>
+                     <li>
+                        <a class="position-relative" href="javascript:void(0)">DEKORACIJE ZA DOM</a>
+                     </li>
+                     <li>
+                        <a class="position-relative" href="javascript:void(0)">NOVO</a>
+                     </li>
+                     <li>
+                        <a class="position-relative" href="javascript:void(0)">NEŠTO</a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="col-3 col-md-3">
+                  <ul class="nav-right">
+                     <li>
+                        <a class="position-relative d-none" href="javascript:void(0)">
+                        <span class="icon-search"></span>
+                        </a>
+                     </li>
+                     <li>
+                        <a class="position-relative d-none" href="javascript:void(0)">
+                        <span class="icon-user"></span>
+                        </a>
+                     </li>
+                     <li>
+                        <a class="position-relative d-none" href="javascript:void(0)">
+                        <span class="icon-heart"></span>
+                        </a>
+                     </li>
+                     <li>
+                        <a class="position-relative" href="javascript:void(0)">
+                        <span class="icon-cart"></span>
+                        <span class="badge badge-danger">3</span>
+                        </a>
+                     </li>
+                     <li>
+                        <a class="position-relative d-none" href="javascript:void(0)" onclick="openNav()">
+                        <span class="icon-menu"></span>
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- Mobile sidebar -->
+      <div id="mySidenav" class="sidenav sidenav-mobile">
+         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+         <ul>
+            <li>
+               <a class="position-relative" href="javascript:void(0)">POČETNA</a>
+            </li>
+            <li>
+               <a class="position-relative" href="javascript:void(0)">TRGOVINA</a>
+            </li>
+            <li>
+               <a class="position-relative" href="javascript:void(0)">AKCIJA </a>
+            </li>
+            <li>
+               <a class="position-relative" href="javascript:void(0)">DEKORACIJE ZA DOM</a>
+            </li>
+            <li>
+               <a class="position-relative" href="javascript:void(0)">NOVO</a>
+            </li>
+            <li>
+               <a class="position-relative" href="javascript:void(0)">NEŠTO</a>
+            </li>
+         </ul>
+      </div>
+      <!-- main -->
+      <main>
+         <!-- Shop List -->
+         <section class="product-list">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12">
+                     <a href="javascript:void(0)" class="btn btn-light filter-btn" onclick="openNav1()"><i class="fa fa-filter"></i>Filter</a>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-4 product-list-sidebar">
+                     <aside class="sidenav" id="mySidenav1">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav1()">&times;</a>
+                        <div class="card prod-category">
+                           <h4 id="prod-category">KATEGORIJE PROIZVODA <a href="javascript:void(0)"><i class="icon-angle-top"></i></a></h4>
+                           <ul id="prod-cate-details">
+                              <li><a href="javascript:void(0)"> Naljepnice </a></li>
+                              <li><a href="javascript:void(0)"> Plakati </a></li>
+                              <li><a href="javascript:void(0)"> Posteri </a></li>
+                              <li><a href="javascript:void(0)"> Slike </a></li>
+                              <li><a href="javascript:void(0)"> Aktovi </a></li>
+                              <li><a href="javascript:void(0)"> Pokloni </a></li>
+                              <li><a href="javascript:void(0)"> Šalice </a></li>
+                              <li><a href="javascript:void(0)"> Drangulije </a></li>
+                              <li><a href="javascript:void(0)"> Tapete </a></li>
+                              <li><a href="javascript:void(0)"> Nešto jo </a></li>
+                           </ul>
+                        </div>
+                        <div class="card product-color">
+                           <h4 id="prod-color">BRANDOVI <i class="icon-angle-top"></i></h4>
+                           <ul id="prod-color-detail">
+                              <li>
+                                 <input type="radio" id="test1" name="radio-group">
+                                 <label for="test1"></label>
+                              </li>
+                              <li>
+                                 <input type="radio" id="test2" name="radio-group">
+                                 <label for="test2" class="radio-orange"></label>
+                              </li>
+                              <li>
+                                 <input type="radio" id="test3" name="radio-group">
+                                 <label for="test3" class="radio-black"></label>
+                              </li>
+                              <li>
+                                 <input type="radio" id="test4" name="radio-group">
+                                 <label for="test4" class="radio-sky"></label>
+                              </li>
+                              <li>
+                                 <input type="radio" id="test5" name="radio-group">
+                                 <label for="test5" class="radio-dark-orange"></label>
+                              </li>
+                              <li>
+                                 <input type="radio" id="test6" name="radio-group">
+                                 <label for="test6" class="radio-golden"></label>
+                              </li>
+                              <li>
+                                 <input type="radio" id="test7" name="radio-group">
+                                 <label for="test7" class="radio-pink"></label>
+                              </li>
+                              <li>
+                                 <input type="radio" id="test8" name="radio-group" checked>
+                                 <label for="test8" class="radio-gray"></label>
+                              </li>
+                           </ul>
+                        </div>
+                        <div class="card product-size">
+                           <h4 id="prod-size">VELIČINE <i class="icon-angle-top"></i></h4>
+                           <ul id="prod-size-detail">
+                              <li>
+                                 <input type="radio" name="radio1" id="extra-small" value="extra-small">
+                                 <label for="extra-small">XS</label>
+                              </li>
+                              <li>
+                                 <input type="radio" name="radio1" id="small" value="small" checked>
+                                 <label for="small">S</label>
+                              </li>
+                              <li>
+                                 <input type="radio" name="radio1" id="medium" value="medium">
+                                 <label for="medium">M</label>
+                              </li>
+                              <li>
+                                 <input type="radio" name="radio1" id="large" value="large">
+                                 <label for="large">L</label>
+                              </li>
+                              <li>
+                                 <input type="radio" name="radio1" id="extra-large" value="extra-large">
+                                 <label for="extra-large">XL</label>
+                              </li>
+                              <li>
+                                 <input type="radio" name="radio1" id="xxl" value="xxl">
+                                 <label for="xxl">XXL</label>
+                              </li>
+                           </ul>
+                        </div>
+                        <div class="card product-brand">
+                           <h4 id="prod-brand">BRANDOVI <i class="icon-angle-top"></i></h4>
+                           <div id="prod-brand-details">
+                              <div class="form-group position-relative">
+                                 <input type="text" class="form-control" placeholder="Pretraga">
+                                 <i class="icon-search"></i>
+                              </div>
+                              <ul>
+                                 <li>
+                                    <div class="form-group">
+                                       <input type="checkbox" id="brand1">
+                                       <label for="brand1">Brand</label>
+                                    </div>
+                                    <span>2</span>
+                                 </li>
+                                 <li>
+                                    <div class="form-group">
+                                       <input type="checkbox" id="brand2">
+                                       <label for="brand2">Brand</label>
+                                    </div>
+                                    <span>7</span>
+                                 </li>
+                                 <li>
+                                    <div class="form-group">
+                                       <input type="checkbox" id="brand3">
+                                       <label for="brand3">Brand</label>
+                                    </div>
+                                    <span>12</span>
+                                 </li>
+                                 <li>
+                                    <div class="form-group">
+                                       <input type="checkbox" id="brand4">
+                                       <label for="brand4">Brand</label>
+                                    </div>
+                                    <span>4</span>
+                                 </li>
+                                 <li>
+                                    <div class="form-group">
+                                       <input type="checkbox" id="brand5">
+                                       <label for="brand5">Brand</label>
+                                    </div>
+                                    <span>10</span>
+                                 </li>
+                                 <li>
+                                    <div class="form-group">
+                                       <input type="checkbox" id="brand6">
+                                       <label for="brand6">Brand</label>
+                                    </div>
+                                    <span>10</span>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="card product-price">
+                           <h4 id="prod-price">CIJENA <i class="icon-angle-top"></i></h4>
+                           <div class="filters">
+                              <div class="controls">
+                                 <div id="price-range"></div>
+                                 <div class="textinputs">
+                                    Min cijena: <input id="price-min" type="text" value="0" class="text-left">
+                                    <span>Min cijena: <input id="price-max" type="text" value="700" class="text-right"></span>
+                                 </div>
+                              </div>
+                           </div>
+                           <div id="prod-price-details">
+                              <ul>
+                                 <li>
+                                    <span class="badge"><i class="fa fa-close"></i> NEŠTO</span>
+                                 </li>
+                                 <li>
+                                    <span class="badge"><i class="fa fa-close"></i> MAX CIJENA: 234 kn</span>
+                                 </li>
+                                 <li>
+                                    <span class="badge"><i class="fa fa-close"></i> Nešt</span>
+                                 </li>
+                                 <li>
+                                    <span class="badge"><i class="fa fa-close"></i> RESETIRAJ FILTER</span>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="card product-color">
+                        </div>
+                     </aside>
+                  </div>
+                  <div class="col-md-12 col-lg-8 latest-product">
+                     <div class="shop-banner">
+                        <div class="row align-items-center">
+                           <div class="col-lg-6 col-xl-5 order-md-2 order-2">
+                              <div class="shop-banner-detail">
+                                 <h2>MUŠKE <br /> <strong>TAPETE</strong></h2>
+                                 <p>Želite impresionirati djevojku vašom muškom sobom, odaberite muške tapete s uzorcima cvijeća i leptirića. Prepoznajte muškarca u sebi i zadivite bližnje.</p>
+                              </div>
+                           </div>
+                           <div class="col-lg-6 col-xl-7 order-md-2 order-1">
+                              <div class="owl-carousel" id="shop-list">
+                                 <div class="item">
+                                    <img class="img-fluid" src="assets/images/shop-list.png" alt="shop">
+                                 </div>
+                                 <div class="item">
+                                    <img class="img-fluid" src="assets/images/shop-list.png" alt="shop">
+                                 </div>
+                                 <div class="item">
+                                    <img class="img-fluid" src="assets/images/shop-list.png" alt="shop">
+                                 </div>
+                                 <div class="item">
+                                    <img class="img-fluid" src="assets/images/shop-list.png" alt="shop">
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row filter-sort">
+                        <div class="col-md-4">
+                           <span>POČETNA / TRGOVINA</span>
+                        </div>
+                        <div class="col-md-8 text-right">
+                           <select class="form-control">
+                              <option>ZADANO SORTIRANJE</option>
+                              <option>10</option>
+                              <option>20</option>
+                           </select>
+                           <span>PREGLED</span>
+                           <ul>
+                              <li><a href="javascript:void(0)">2</a></li>
+                              <li><a href="javascript:void(0)">3</a></li>
+                              <li><a class="active" href="javascript:void(0)">4</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-6 col-sm-6 col-md-4">
+                           <div class="product">
+                              <img src="assets/images/product/1.png" alt="product">
+                              <small>20 proizvoda</small>
+                              <p>Ime proizvoda</p>
+                              <p>124 kn</p>
+                              <a href="javascript:void(0)" class="favorite"><i class="icon-heart"></i></a>
+                              <badge class="discount text-sky">-67%</badge>
+                           </div>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-4">
+                           <div class="product">
+                              <img src="assets/images/product/2.png" alt="product">
+                              <small>20 proizvoda</small>
+                              <p>Ime proizvoda</p>
+                              <p>124 kn</p>
+                              <a href="javascript:void(0)" class="favorite"><i class="icon-heart"></i></a>
+                           </div>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-4">
+                           <div class="product">
+                              <img src="assets/images/product/3.png" alt="product">
+                              <small>20 proizvoda</small>
+                              <p>Ime proizvoda</p>
+                              <p><del>124 kn</del> <span class="text-primary">200 kn</span></p>
+                              <a href="javascript:void(0)" class="favorite"><i class="icon-heart"></i></a>
+                              <badge class="discount text-success">-67%</badge>
+                           </div>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-4">
+                           <div class="product">
+                              <img src="assets/images/product/4.png" alt="product">
+                              <small>20 proizvoda</small>
+                              <p>Ime proizvoda</p>
+                              <p>124 kn</p>
+                              <a href="javascript:void(0)" class="favorite"><i class="icon-heart"></i></a>
+                              <badge class="discount text-sky">-67%</badge>
+                           </div>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-4">
+                           <div class="product">
+                              <img src="assets/images/product/5.png" alt="product">
+                              <small>20 proizvoda</small>
+                              <p>Ime proizvoda</p>
+                              <p>124 kn</p>
+                              <a href="javascript:void(0)" class="favorite"><i class="icon-heart"></i></a>
+                           </div>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-4">
+                           <div class="product">
+                              <img src="assets/images/product/1.png" alt="product">
+                              <small>20 proizvoda</small>
+                              <p>Ime proizvoda</p>
+                              <p><del>124 kn</del> <span class="text-primary">200 kn</span></p>
+                              <a href="javascript:void(0)" class="favorite"><i class="icon-heart"></i></a>
+                              <badge class="discount text-success">-67%</badge>
+                           </div>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-4">
+                           <div class="product">
+                              <img src="assets/images/product/2.png" alt="product">
+                              <small>20 proizvoda</small>
+                              <p>Ime proizvoda</p>
+                              <p>124 kn</p>
+                              <a href="javascript:void(0)" class="favorite"><i class="icon-heart"></i></a>
+                              <badge class="discount text-sky">-67%</badge>
+                           </div>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-4">
+                           <div class="product">
+                              <img src="assets/images/product/3.png" alt="product">
+                              <small>20 proizvoda</small>
+                              <p>Ime proizvoda</p>
+                              <p>124 kn</p>
+                              <a href="javascript:void(0)" class="favorite"><i class="icon-heart"></i></a>
+                           </div>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-4">
+                           <div class="product">
+                              <img src="assets/images/product/4.png" alt="product">
+                              <small>20 proizvoda</small>
+                              <p>Ime proizvoda</p>
+                              <p><del>124 kn</del> <span class="text-primary">200 kn</span></p>
+                              <a href="javascript:void(0)" class="favorite"><i class="icon-heart"></i></a>
+                              <badge class="discount text-success">-67%</badge>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row pagination">
+                        <div class="col-sm-4">
+                           <a href="javascript:void(0)"><i class="fa fa-angle-left"></i> PRETHODNA </a>
+                        </div>
+                        <div class="col-sm-4 text-center">
+                           <ul>
+                              <li><a href="javascript:void(0)">1</a></li>
+                              <li><a href="javascript:void(0)">2</a></li>
+                              <li><a class="active" href="javascript:void(0)">3</a></li>
+                              <li><a href="javascript:void(0)">4</a></li>
+                           </ul>
+                        </div>
+                        <div class="col-sm-4 text-right">
+                           <a href="javascript:void(0)">SLJEDEĆA <i class="fa fa-angle-right"></i></a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+      <!-- Footer -->
+      <footer>
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12 order-2 order-md-1">
+                  <div class="row email-block text-center">
+                     <div class="col-md-12">
+                        <h3>PRIJAVITE SE NA NAŠ NEWSLETTER</h3>
+                        <p>Pratite promocije, akcije i budite u toku, očekuju vas popusti i iznenađenja</p>
+                        <input type="text" class="form-control" placeholder="Vaša email adresa">
+                        <button type="submit" class="btn btn-primary">PRIJAVI SE</button>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-12 order-1 order-md-2">
+                  <div class="row">
+                     <div class="col-md-12 col-lg-3 footer-info">
+                        <img class="footer-img" src="assets/images/logo-footer.png" alt="logo">
+                        <p>Zagrebačka 28, 40000 Čakovec <br />
+                           HRVATSKA
+                        </p>
+                        <p>
+                           prodaja@printex.hr <br />
+                           +385 345-334
+                        </p>
+                        <ul class="social-links">
+                           <li><a href="javascript:void(0)"><i class="icon-fb"></i></a></li>
+                           <li><a href="javascript:void(0)"><i class="icon-tw"></i></a></li>
+                           <li><a href="javascript:void(0)"><i class="icon-insta"></i></a></li>
+                           <li><a href="javascript:void(0)"><i class="icon-uniE900"></i></a></li>
+                           <li><a href="javascript:void(0)"><i class="icon-pinta"></i></a></li>
+                        </ul>
+                     </div>
+                     <div class="col-md-12 col-lg-9">
+                        <div class="row">
+                           <div class="col-sm-6 col-md-3 col-lg-3">
+                              <h6>O nama</h6>
+                              <ul>
+                                 <li><a href="javascript:void(0)"> O nama </a></li>
+                                 <li><a href="javascript:void(0)">Često postavljana pitanja</a></li>
+                                 <li><a href="javascript:void(0)">Mapa stranica</a></li>
+                                 <li><a href="javascript:void(0)">Novosti</a></li>
+                                 <li><a href="javascript:void(0)">Kontakt</a></li>
+                              </ul>
+                           </div>
+                           <div class="col-sm-6 col-md-3 col-lg-3">
+                              <h6>Trgovina</h6>
+                              <ul>
+                                 <li><a href="javascript:void(0)"> 
+                                    Pravila o privatnosti
+                                    </a>
+                                 </li>
+                                 <li><a href="javascript:void(0)">Plaćanje i dostava</a>
+                                 <li><a href="javascript:void(0)">Jednostrani raskid ugovora</a>
+                                 <li><a href="javascript:void(0)">Reklamacija i povrat</a>
+                                 <li><a href="javascript:void(0)">Pisani prigovor potrošača</a>
+                              </ul>
+                           </div>
+                           <div class="col-sm-6 col-md-3 col-lg-3">
+                              <h6>Kategorije</h6>
+                              <ul>
+                                 <li><a href="javascript:void(0)">Tapete
+                                    </a>
+                                 </li>
+                                 <li><a href="javascript:void(0)">Naljepnice </a></li>
+                                 <li><a href="javascript:void(0)">Ukrasi </a></li>
+                                 <li><a href="javascript:void(0)">Paketi </a></li>
+                                 <li><a href="javascript:void(0)">Pokloni </a></li>
+                                 <li><a href="javascript:void(0)"> Svašta nešto </a></li>
+                              </ul>
+                           </div>
+                           <div class="col-sm-6 col-md-3 col-lg-3">
+                              <h6>RADNO VRIJEME</h6>
+                              <ul>
+                                 <li>Pon – pet: 08:00 – 17:00
+                                 </li>
+                                 <li>Sub: 09:00 – 15:00</li>
+                                 <li>Nedjelja: ne radimo</li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <div class="copy-right">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <p>©2021 PRINTEX</p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <a href="javascript:void(0)" id="stop" class="scrollTop" style="opacity: 1;"><i class="fa fa-angle-up"></i></a>
+      <!-- JQuery  -->
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/js/owl.carousel.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+      <script>
+         function openNav() {
+           document.getElementById("mySidenav").style.width = "250px";
+         }
+         
+         function closeNav() {
+           document.getElementById("mySidenav").style.width = "0";
+         }
+      </script>
+      <script>
+         function openNav1() {
+           document.getElementById("mySidenav1").style.width = "320px";
+         }
+         
+         function closeNav1() {
+           document.getElementById("mySidenav1").style.width = "0";
+         }
+      </script>
+      <script>
+         $('#shop-list').owlCarousel({
+            margin: 15,
+            loop: true,
+            autoplay: true   ,
+            autoplayHoverPause: false,
+            mouseDrag: true,
+            dots: true,
+            nav: false,
+            items: 1,
+         });
+              
+      </script>
+      <script>
+         // BY KAREN GRIGORYAN
+         
+         $(document).ready(function() {
+         /******************************
+          BOTTOM SCROLL TOP BUTTON
+         ******************************/
+         
+         // declare variable
+         var scrollTop = $(".scrollTop");
+         
+         $(window).scroll(function() {
+         // declare variable
+         var topPos = $(this).scrollTop();
+         
+         // if user scrolls down - show scroll to top button
+         if (topPos > 80) {
+          $(scrollTop).css("opacity", "1");
+         
+         } else {
+          $(scrollTop).css("opacity", "0");
+         }
+         
+         }); // scroll END
+         
+         //Click event to scroll to top
+         $(scrollTop).click(function() {
+         $('html, body').animate({
+          scrollTop: 0
+         }, 1000);
+         return false;
+         
+         }); 
+         
+         }); // ready() END
+         
+         AOS.init({
+            duration: 1200,
+         });
+         
+      </script>
+      <script> 
+         $(document).ready(function(){
+           $("#prod-category").click(function(){
+             $("#prod-cate-details").slideToggle("slow");
+           });
+         
+            $("#prod-color").click(function(){
+             $("#prod-color-detail").slideToggle("slow");
+           });
+         
+             $("#prod-size").click(function(){
+             $("#prod-size-detail").slideToggle("slow");
+           });
+         
+              $("#prod-brand").click(function(){
+             $("#prod-brand-details").slideToggle("slow");
+           });
+         
+               $("#prod-price").click(function(){
+             $("#prod-price-details").slideToggle("slow");
+           });
+         
+         });
+      </script>
+      <script>
+         $( function() {
+         $('#price-range').slider({
+         range: true,
+         min: 0,
+         max: 1000,
+         values: [0, 700],
+         slide: function(event, ui) {
+         $('#price-min').val(ui.values[0]);
+         $('#price-max').val(ui.values[1]);
+         }
+         });
+         });
+         
+         $('#price-min').change(function(event) {
+         var minValue = $('#price-min').val();
+         var maxValue = $('#price-max').val();
+         if ( minValue <= maxValue) {
+         $('#price-range').slider("values", 0, minValue);
+         } else {
+         $('#price-range').slider("values", 0, maxValue);
+         $('#price-min').val(maxValue);
+         }
+         });
+         // This isn't very DRY but it's just for demo purpose... oh well.
+         $('#price-max').change(function(event) {
+         var minValue = $('#price-min').val();
+         var maxValue = $('#price-max').val();
+         if ( maxValue >= minValue) {
+         $('#price-range').slider("values", 1, maxValue);
+         } else {
+         $('#price-range').slider("values", 1, minValue);
+         $('#price-max').val(minValue);
+         }
+         });
+         
+      </script>
+   </body>
+</html>

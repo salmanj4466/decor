@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Font Awsome -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!-- Google fonts -->
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+      <link rel="stylesheet" href="assets/css/style.css">
+      <title>Decor</title>
+   </head>
+   <body>
+      <header>
+         <div class="container">
+            <div class="row align-items-center">
+               <div class="col-3 d-lg-none">
+                  <a class="position-relative" href="javascript:void(0)" onclick="openNav()">
+                  <span class="icon-menu"></span>
+                  </a>
+               </div>
+               <div class="col-6 col-md-6 col-lg-9 text-md-center">
+                  <a class="logo" href="javascript:void(0)"> <img src="assets/images/logo.png"></a>
+                  <ul class="nav-left">
+                     <li>
+                        <a class="position-relative" href="javascript:void(0)">POČETNA </a>
+                     </li>
+                     <li>
+                        <a class="position-relative" href="javascript:void(0)">TRGOVINA</a>
+                     </li>
+                     <li>
+                        <a class="position-relative" href="javascript:void(0)">AKCIJA </a>
+                     </li>
+                     <li>
+                        <a class="position-relative" href="javascript:void(0)">DEKORACIJE ZA DOM</a>
+                     </li>
+                     <li>
+                        <a class="position-relative" href="javascript:void(0)">NOVO</a>
+                     </li>
+                     <li>
+                        <a class="position-relative" href="javascript:void(0)">NEŠTO</a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="col-3 col-md-3">
+                  <ul class="nav-right">
+                     <li>
+                        <a class="position-relative d-none" href="javascript:void(0)">
+                        <span class="icon-search"></span>
+                        </a>
+                     </li>
+                     <li>
+                        <a class="position-relative d-none" href="javascript:void(0)">
+                        <span class="icon-user"></span>
+                        </a>
+                     </li>
+                     <li>
+                        <a class="position-relative d-none" href="javascript:void(0)">
+                        <span class="icon-heart"></span>
+                        </a>
+                     </li>
+                     <li>
+                        <a class="position-relative" href="javascript:void(0)">
+                        <span class="icon-cart"></span>
+                        <span class="badge badge-danger">3</span>
+                        </a>
+                     </li>
+                     <li>
+                        <a class="position-relative d-none" href="javascript:void(0)" onclick="openNav()">
+                        <span class="icon-menu"></span>
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- Mobile sidebar -->
+      <div id="mySidenav" class="sidenav sidenav-mobile">
+         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+         <ul>
+            <li>
+               <a class="position-relative" href="javascript:void(0)">POČETNA</a>
+            </li>
+            <li>
+               <a class="position-relative" href="javascript:void(0)">TRGOVINA</a>
+            </li>
+            <li>
+               <a class="position-relative" href="javascript:void(0)">AKCIJA </a>
+            </li>
+            <li>
+               <a class="position-relative" href="javascript:void(0)">DEKORACIJE ZA DOM</a>
+            </li>
+            <li>
+               <a class="position-relative" href="javascript:void(0)">NOVO</a>
+            </li>
+            <li>
+               <a class="position-relative" href="javascript:void(0)">NEŠTO</a>
+            </li>
+         </ul>
+      </div>
+      <!-- main -->
+      <main>
+         <!-- Hero section -->
+         <section class="hero-section">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="owl-carousel" id="banner-slider">
+                        <div class="item">
+                           <img src="assets/images/banner.png" alt="product">
+                           <div class="text">
+                              <small>KATEGORIJA PROIZVODA</small>
+                              <h3>NEKO DUGAČKO IME NEKOG   PROIZVODA</h3>
+                              <p>VEĆ OD 150 KN</p>
+                           </div>
+                        </div>
+                        <div class="item">
+                           <img src="assets/images/banner.png" alt="product">
+                           <div class="text">
+                              <small>KATEGORIJA PROIZVODA</small>
+                              <h3>NEKO DUGAČKO IME NEKOG   PROIZVODA</h3>
+                           </div>
+                        </div>
+                        <div class="item">
+                           <img src="assets/images/banner.png" alt="product">
+                           <div class="text">
+                              <small>KATEGORIJA PROIZVODA</small>
+                              <h3>NEKO DUGAČKO IME NEKOG   PROIZVODA</h3>
+                              <p>VEĆ OD 150 KN</p>
+                           </div>
+                        </div>
+                        <div class="item">
+                           <img src="assets/images/banner.png" alt="product">
+                           <div class="text">
+                              <small>KATEGORIJA PROIZVODA</small>
+                              <h3>NEKO DUGAČKO IME NEKOG   PROIZVODA</h3>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- Hero section -->
+         <section class="more-section">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-md-6 pl-0">
+                     <div class="owl-carousel" id="more-section">
+                        <div class="item">
+                           <img src="assets/images/more.png">
+                           <div class="text">
+                              <p>KATEGORIJA PROIZVODA 1</p>
+                           </div>
+                        </div>
+                        <div class="item">
+                           <img src="assets/images/more.png">
+                           <div class="text">
+                              <p>KATEGORIJA PROIZVODA 1</p>
+                           </div>
+                        </div>
+                        <div class="item">
+                           <img src="assets/images/more.png">
+                           <div class="text">
+                              <p>KATEGORIJA PROIZVODA 1</p>
+                           </div>
+                        </div>
+                        <div class="item">
+                           <img src="assets/images/more.png">
+                           <div class="text">
+                              <p>KATEGORIJA PROIZVODA 1</p>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- <div class="slideshow-container">
+                        <div class="mySlides2 fade">
+                           <img src="assets/images/more.png">
+                           <div class="text">
+                              <p>KATEGORIJA PROIZVODA 1</p>
+                           </div>
+                        </div>
+                        <div class="mySlides2 fade">
+                           <img src="assets/images/more1.png">
+                           <div class="text">
+                              <p>KATEGORIJA PROIZVODA 2</p>
+                           </div>
+                        </div>
+                        <div class="mySlides2 fade">
+                           <img src="assets/images/more.png">
+                           <div class="text">
+                              <p>KATEGORIJA PROIZVODA 3</p>
+                           </div>
+                        </div>
+                        <a class="prev" onclick="plusSlides2(-1)"><i class="icon-angle-left"></i></a>
+                        <a class="next" onclick="plusSlides2(1)"><i class="icon-angle-right"></i></a>
+                        </div> -->
+                  </div>
+                  <div class="col-md-6 pr-0">
+                     <div class="card mb-3">
+                        <div class="row no-gutters">
+                           <div class="col-md-6">
+                              <img src="assets/images/more1.png" alt="more">
+                           </div>
+                           <div class="col-md-6">
+                              <div class="card-body text-center">
+                                 <small>Ponuda mjeseca</small>
+                                 <h5 class="card-title">AKCIJSKA PONUDA
+                                    DEKORATIVNIH TAPETA
+                                 </h5>
+                                 <a href="javascript:void(0)">OPŠIRNIJE</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- Separate Product -->
+         <section class="latest-product">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12">
+                     <h2 class="main-heading">IZDVOJENI PROIZVODI</h2>
+                  </div>
+                  <div class="col-md-12">
+                     <div class="tab text-center">
+                        <ul>
+                        <li><a href="javascript:void(0)" id="defaultOpen" class="tablinks active" onclick="openCity(event, 'tab1')">TAPETE </a></li>
+                        <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'tab2')"> NALJEPNICE</a></li>
+                        <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'tab3')">MAJICE</a></li>
+                        <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'tab4')">  ZIDNE SLIKE</a></li>
+                     </div>
+                     <div id="tab1" class="tabcontent">
+                        <div class="owl-carousel" id="separate-product">
+                           <div class="item">
+                              <div class="product">
+                                 <img src="assets/images/product/1.png" alt="product">
+                                 <small>20 proizvoda</small>
+                                 <p>Ime proizvoda</p>
+                                 <p>124 kn</p>
+                                 <a href="javascript:void(0)" class="favorite"><i class="icon-heart"></i></a>
+                              </div>
+                           </div>
+                           <div class="item">
+                              <div class="product">
+                                 <img src="assets/images/product/2.png" alt="product">
+                                 <small>20 proizvoda</small>
+                                 <p>Ime proizvoda</p>
+                                 <p>543 kn</p>
+                                 <a href="javascript:void(0)" class="favorite"><i class="icon-heart"></i></a>
+                                 <badge class="discount text-sky">-67%</badge>
+                              </div>
+                           </div>
+                           <div class="item">
+                              <div class="product">
+                                 <img src="assets/images/product/3.png" alt="product">
+                                 <small>20 proizvoda</small>
+                                 <p>Ime proizvoda</p>
+                                 <p>124 kn</p>
+                                 <a href="javascript:void(0)" class="favorite"><i class="icon-heart text-danger"></i></a>
+                              </div>
+                           </div>
+                           <div class="item">
+                              <div class="product">
+                                 <img src="assets/images/product/4.png" alt="product">
+                                 <small>20 proizvoda</small>
+                                 <p>Ime proizvoda</p>
+                                 <p>124 kn</p>
+                                 <a href="javascript:void(0)" class="favorite"><i class="icon-heart"></i></a>
+                                 <badge class="discount text-success">-67%</badge>
+                              </div>
+                           </div>
+                           <div class="item">
+                              <div class="product">
+                                 <img src="assets/images/product/5.png" alt="product">
+                                 <small>20 proizvoda</small>
+                                 <p>Ime proizvoda</p>
+                                 <p>124 kn</p>
+                                 <a href="javascript:void(0)" class="favorite"><i class="icon-heart"></i></a>
+                              </div>
+                           </div>
+                           <div class="item">
+                              <div class="product">
+                                 <img src="assets/images/product/3.png" alt="product">
+                                 <small>20 proizvoda</small>
+                                 <p>Ime proizvoda</p>
+                                 <p>543 kn</p>
+                                 <a href="javascript:void(0)" class="favorite"><i class="icon-heart"></i></a>
+                                 <badge class="discount text-sky">-67%</badge>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div id="tab2" class="tabcontent text-center">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                     </div>
+                     <div id="tab3" class="tabcontent text-center">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+                     </div>
+                     <div id="tab4" class="tabcontent text-center">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- Product Category -->
+         <section class="product-category">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12">
+                     <h2 class="main-heading">KATEGORIJE PROIZVODA</h2>
+                  </div>
+                  <div class="col-md-12 text-center">
+                     <div class="owl-carousel" id="product-category">
+                        <div class="item">
+                           <img src="assets/images/product/1.png" alt="product">
+                           <a href="javascript:void(0)">
+                              <h6>TAPETE</h6>
+                           </a>
+                        </div>
+                        <div class="item">
+                           <img src="assets/images/product/2.png" alt="product">
+                           <a href="javascript:void(0)">
+                              <h6>MAJICE</h6>
+                           </a>
+                           <small>20 proizvoda</small>
+                        </div>
+                        <div class="item">
+                           <img src="assets/images/product/3.png" alt="product">
+                           <a href="javascript:void(0)">
+                              <h6>NALJEPNICE</h6>
+                           </a>
+                        </div>
+                        <div class="item">
+                           <img src="assets/images/product/4.png" alt="product">
+                           <a href="javascript:void(0)">
+                              <h6>ZIDNE SLIKE</h6>
+                           </a>
+                        </div>
+                        <div class="item">
+                           <img src="assets/images/product/5.png" alt="product">
+                           <a href="javascript:void(0)">
+                              <h6>NEŠTO</h6>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- new-offer -->
+         <section class="new-offer">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12">
+                     <h1>NOVO U PONUDI</h1>
+                     <p>Slike vaših kućnih ljubimaca</p>
+                     <a href="javascript:void(0)" class="btn btn-outline-secondary">NARUČI ODMAH</a>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- Latest product -->
+         <section class="latest-product">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12">
+                     <h2 class="main-heading">POSLJEDNJI PROIZVODI</h2>
+                  </div>
+                  <div class="col-md-12">
+                     <div class="owl-carousel" id="latest-product">
+                        <div class="item">
+                           <div class="product">
+                              <img src="assets/images/product/4.png" alt="product">
+                              <small>20 proizvoda</small>
+                              <p>Ime proizvoda</p>
+                              <p>124 kn</p>
+                              <a href="javascript:void(0)" class="favorite"><i class="icon-heart"></i></a>
+                           </div>
+                        </div>
+                        <div class="item">
+                           <div class="product">
+                              <img src="assets/images/product/3.png" alt="product">
+                              <small>20 proizvoda</small>
+                              <p>Ime proizvoda</p>
+                              <p>543 kn</p>
+                              <a href="javascript:void(0)" class="favorite"><i class="icon-heart"></i></a>
+                              <badge class="discount text-sky">-67%</badge>
+                           </div>
+                        </div>
+                        <div class="item">
+                           <div class="product">
+                              <img src="assets/images/product/2.png" alt="product">
+                              <small>20 proizvoda</small>
+                              <p>Ime proizvoda</p>
+                              <p>124 kn</p>
+                              <a href="javascript:void(0)" class="favorite"><i class="icon-heart"></i></a>
+                           </div>
+                        </div>
+                        <div class="item">
+                           <div class="product">
+                              <img src="assets/images/product/1.png" alt="product">
+                              <small>20 proizvoda</small>
+                              <p>Ime proizvoda</p>
+                              <p>124 kn</p>
+                              <a href="javascript:void(0)" class="favorite"><i class="icon-heart"></i></a>
+                              <badge class="discount text-success">-67%</badge>
+                           </div>
+                        </div>
+                        <div class="item">
+                           <div class="product">
+                              <img src="assets/images/product/4.png" alt="product">
+                              <small>20 proizvoda</small>
+                              <p>Ime proizvoda</p>
+                              <p>124 kn</p>
+                              <a href="javascript:void(0)" class="favorite"><i class="icon-heart"></i></a>
+                           </div>
+                        </div>
+                        <div class="item">
+                           <div class="product">
+                              <img src="assets/images/product/3.png" alt="product">
+                              <small>20 proizvoda</small>
+                              <p>Ime proizvoda</p>
+                              <p>543 kn</p>
+                              <a href="javascript:void(0)" class="favorite"><i class="icon-heart"></i></a>
+                              <badge class="discount text-sky">-67%</badge>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- News -->
+         <section class="news-section">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12">
+                     <h2 class="main-heading">NOVOSTI</h2>
+                  </div>
+                  <div class="col-md-12">
+                     <div class="owl-carousel" id="news">
+                        <div class="item">
+                           <a href="javascript:void(0)"> <img src="assets/images/product/3.png" alt="product"></a>
+                           <p>Vijest o nekom novom proizvodu ili akciji</p>
+                        </div>
+                        <div class="item">
+                           <a href="javascript:void(0)"> <img src="assets/images/product/2.png" alt="product"></a>
+                           <p>Vijest o nekom novom proizvodu ili akciji</p>
+                        </div>
+                        <div class="item">
+                           <a href="javascript:void(0)"> <img src="assets/images/product/4.png" alt="product"></a>
+                           <p>Vijest o nekom novom proizvodu ili akciji</p>
+                        </div>
+                        <div class="item">
+                           <a href="javascript:void(0)"> <img src="assets/images/product/3.png" alt="product"></a>
+                           <p>Vijest o nekom novom proizvodu ili akciji</p>
+                        </div>
+                        <div class="item">
+                           <a href="javascript:void(0)"> <img src="assets/images/product/2.png" alt="product"></a>
+                           <p>Vijest o nekom novom proizvodu ili akciji</p>
+                        </div>
+                        <div class="item">
+                           <a href="javascript:void(0)"> <img src="assets/images/product/4.png" alt="product"></a>
+                           <p>Vijest o nekom novom proizvodu ili akciji</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+      <!-- Footer -->
+      <footer>
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12 order-2 order-md-1">
+                  <div class="row email-block text-center">
+                     <div class="col-md-12">
+                        <h3>PRIJAVITE SE NA NAŠ NEWSLETTER</h3>
+                        <p>Pratite promocije, akcije i budite u toku, očekuju vas popusti i iznenađenja</p>
+                        <input type="text" class="form-control" placeholder="Vaša email adresa">
+                        <button type="submit" class="btn btn-primary">PRIJAVI SE</button>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-12 order-1 order-md-2">
+                  <div class="row">
+                     <div class="col-md-12 col-lg-3 footer-info">
+                        <img class="footer-img" src="assets/images/logo-footer.png" alt="logo">
+                        <p>Zagrebačka 28, 40000 Čakovec <br />
+                           HRVATSKA
+                        </p>
+                        <p>
+                           prodaja@printex.hr <br />
+                           +385 345-334
+                        </p>
+                        <ul class="social-links">
+                           <li><a href="javascript:void(0)"><i class="icon-fb"></i></a></li>
+                           <li><a href="javascript:void(0)"><i class="icon-tw"></i></a></li>
+                           <li><a href="javascript:void(0)"><i class="icon-insta"></i></a></li>
+                           <li><a href="javascript:void(0)"><i class="icon-uniE900"></i></a></li>
+                           <li><a href="javascript:void(0)"><i class="icon-pinta"></i></a></li>
+                        </ul>
+                     </div>
+                     <div class="col-md-12 col-lg-9">
+                        <div class="row">
+                           <div class="col-sm-6 col-md-3 col-lg-3">
+                              <h6>O nama</h6>
+                              <ul>
+                                 <li><a href="javascript:void(0)"> O nama </a></li>
+                                 <li><a href="javascript:void(0)">Često postavljana pitanja</a></li>
+                                 <li><a href="javascript:void(0)">Mapa stranica</a></li>
+                                 <li><a href="javascript:void(0)">Novosti</a></li>
+                                 <li><a href="javascript:void(0)">Kontakt</a></li>
+                              </ul>
+                           </div>
+                           <div class="col-sm-6 col-md-3 col-lg-3">
+                              <h6>Trgovina</h6>
+                              <ul>
+                                 <li><a href="javascript:void(0)"> 
+                                    Pravila o privatnosti
+                                    </a>
+                                 </li>
+                                 <li><a href="javascript:void(0)">Plaćanje i dostava</a>
+                                 <li><a href="javascript:void(0)">Jednostrani raskid ugovora</a>
+                                 <li><a href="javascript:void(0)">Reklamacija i povrat</a>
+                                 <li><a href="javascript:void(0)">Pisani prigovor potrošača</a>
+                              </ul>
+                           </div>
+                           <div class="col-sm-6 col-md-3 col-lg-3">
+                              <h6>Kategorije</h6>
+                              <ul>
+                                 <li><a href="javascript:void(0)">Tapete
+                                    </a>
+                                 </li>
+                                 <li><a href="javascript:void(0)">Naljepnice </a></li>
+                                 <li><a href="javascript:void(0)">Ukrasi </a></li>
+                                 <li><a href="javascript:void(0)">Paketi </a></li>
+                                 <li><a href="javascript:void(0)">Pokloni </a></li>
+                                 <li><a href="javascript:void(0)"> Svašta nešto </a></li>
+                              </ul>
+                           </div>
+                           <div class="col-sm-6 col-md-3 col-lg-3">
+                              <h6>RADNO VRIJEME</h6>
+                              <ul>
+                                 <li>Pon – pet: 08:00 – 17:00
+                                 </li>
+                                 <li>Sub: 09:00 – 15:00</li>
+                                 <li>Nedjelja: ne radimo</li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <div class="copy-right">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <p>©2021 PRINTEX</p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <a href="javascript:void(0)" id="stop" class="scrollTop" style="opacity: 1;"><i class="fa fa-angle-up"></i></a>
+      <!-- JQuery  -->
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/js/owl.carousel.min.js"></script>
+      <script>
+         function openNav() {
+           document.getElementById("mySidenav").style.width = "250px";
+         }
+         
+         function closeNav() {
+           document.getElementById("mySidenav").style.width = "0";
+         }
+      </script>
+      <script>
+         $('#product-category').owlCarousel({
+             margin: 15,
+             loop: true,
+             autoplay: false,
+             autoplayHoverPause: false,
+             mouseDrag: true,
+             dots: false,
+             nav: false,
+             responsive: {
+                 0: {
+                     items: 2,
+                 },
+         
+                 576: {
+                     items: 2
+                 },
+                 767: {
+                     items: 3
+                 },
+                 900: {
+                     items: 5,
+         
+                 }
+             }
+         });
+         
+         
+         
+         $('#latest-product').owlCarousel({
+             margin: 15,
+             loop: true,
+             autoplay: false,
+             autoplayHoverPause: false,
+             mouseDrag: true,
+             dots: false,
+             nav: false,
+             navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+             responsive: {
+                 0: {
+                     items: 2,
+                 },
+         
+                 576: {
+                     items: 2
+                 },
+                 767: {
+                     items: 3
+                 },
+                 900: {
+                     items: 4,
+                     nav: true,
+                 }
+             }
+         });
+         
+         
+         $('#news').owlCarousel({
+             margin: 15,
+             loop: false,
+             autoplay: false,
+             autoplayHoverPause: false,
+             mouseDrag: true,
+             dots: true,
+             nav: false,
+             responsive: {
+                 0: {
+                     items: 2,
+                 },
+         
+                 576: {
+                     items: 1
+                 },
+                 767: {
+                     items: 2
+                 },
+                 900: {
+                     items: 3,
+         
+                 }
+             }
+         });
+         
+         
+         $('#separate-product').owlCarousel({
+             margin: 15,
+             loop: true,
+             autoplay: false,
+             autoplayHoverPause: false,
+             mouseDrag: true,
+             dots: false,
+             nav: false,
+             navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+             responsive: {
+                 0: {
+                     items: 2,
+                 },
+         
+                 576: {
+                     items: 2
+                 },
+                 767: {
+                     items: 3,
+                 },
+                 900: {
+                     items: 4,
+                      nav: true,
+         
+                 }
+             }
+         });
+         
+         
+         
+           $('#banner-slider').owlCarousel({
+             margin: 15,
+             loop: true,
+             autoplay: true,
+             autoplayHoverPause: false,
+             mouseDrag: true,
+             dots: false,
+             autoplayTimeout: 6000,
+                autoplaySpeed: 4000,
+                items: 1,
+             nav: true,
+             navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+             responsive: {
+                 0: {
+                     items: 1,
+                 },
+         
+                 576: {
+                     items: 1
+                 },
+                 767: {
+                     items: 1,
+             nav: true,
+               dots: true,
+                 },
+             }
+         });
+         
+         
+            $('#more-section').owlCarousel({
+             margin: 15,
+             loop: true,
+             autoplay: false,
+             autoplayHoverPause: false,
+             mouseDrag: true,
+             dots:false,
+             autoplayTimeout: 6000,
+                autoplaySpeed: 4000,
+               nav: true,
+               items: 1,
+             navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+           
+         });
+         
+         
+               
+      </script>
+      <script>
+         function openCity(evt, cityName) {
+           var i, tabcontent, tablinks;
+           tabcontent = document.getElementsByClassName("tabcontent");
+           for (i = 0; i < tabcontent.length; i++) {
+             tabcontent[i].style.display = "none";
+           }
+           tablinks = document.getElementsByClassName("tablinks");
+           for (i = 0; i < tablinks.length; i++) {
+             tablinks[i].className = tablinks[i].className.replace(" active", "");
+           }
+           document.getElementById(cityName).style.display = "block";
+           evt.currentTarget.className += " active";
+         }
+         
+         // Get the element with id="defaultOpen" and click on it
+         document.getElementById("defaultOpen").click();
+      </script>
+      <script>
+         // BY KAREN GRIGORYAN
+         
+         $(document).ready(function() {
+         /******************************
+          BOTTOM SCROLL TOP BUTTON
+         ******************************/
+         
+         // declare variable
+         var scrollTop = $(".scrollTop");
+         
+         $(window).scroll(function() {
+         // declare variable
+         var topPos = $(this).scrollTop();
+         
+         // if user scrolls down - show scroll to top button
+         if (topPos > 80) {
+          $(scrollTop).css("opacity", "1");
+         
+         } else {
+          $(scrollTop).css("opacity", "0");
+         }
+         
+         }); // scroll END
+         
+         //Click event to scroll to top
+         $(scrollTop).click(function() {
+         $('html, body').animate({
+          scrollTop: 0
+         }, 1000);
+         return false;
+         
+         }); 
+         
+         }); // ready() END
+         
+         AOS.init({
+            duration: 1200,
+         });
+         
+      </script>
+   </body>
+</html>

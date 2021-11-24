@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Font Awsome -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!-- Google fonts -->
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+      <link rel="stylesheet" href="assets/css/style.css">
+      <title>Decor</title>
+   </head>
+   <body>
+      <header>
+         <div class="container">
+            <div class="row align-items-center">
+               <div class="col-3 d-lg-none">
+                  <a class="position-relative" href="javascript:void(0)" onclick="openNav()">
+                  <span class="icon-menu"></span>
+                  </a>
+               </div>
+               <div class="col-6 col-md-6 col-lg-9 text-md-center">
+                  <a class="logo" href="javascript:void(0)"> <img src="assets/images/logo.png"></a>
+                  <ul class="nav-left">
+                     <li>
+                        <a class="position-relative" href="javascript:void(0)">POČETNA </a>
+                     </li>
+                     <li>
+                        <a class="position-relative" href="javascript:void(0)">TRGOVINA</a>
+                     </li>
+                     <li>
+                        <a class="position-relative" href="javascript:void(0)">AKCIJA </a>
+                     </li>
+                     <li>
+                        <a class="position-relative" href="javascript:void(0)">DEKORACIJE ZA DOM</a>
+                     </li>
+                     <li>
+                        <a class="position-relative" href="javascript:void(0)">NOVO</a>
+                     </li>
+                     <li>
+                        <a class="position-relative" href="javascript:void(0)">NEŠTO</a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="col-3 col-md-3">
+                  <ul class="nav-right">
+                     <li>
+                        <a class="position-relative d-none" href="javascript:void(0)">
+                        <span class="icon-search"></span>
+                        </a>
+                     </li>
+                     <li>
+                        <a class="position-relative d-none" href="javascript:void(0)">
+                        <span class="icon-user"></span>
+                        </a>
+                     </li>
+                     <li>
+                        <a class="position-relative d-none" href="javascript:void(0)">
+                        <span class="icon-heart"></span>
+                        </a>
+                     </li>
+                     <li>
+                        <a class="position-relative" href="javascript:void(0)">
+                        <span class="icon-cart"></span>
+                        <span class="badge badge-danger">3</span>
+                        </a>
+                     </li>
+                     <li>
+                        <a class="position-relative d-none" href="javascript:void(0)" onclick="openNav()">
+                        <span class="icon-menu"></span>
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- Mobile sidebar -->
+      <div id="mySidenav" class="sidenav sidenav-mobile">
+         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+         <ul>
+            <li>
+               <a class="position-relative" href="javascript:void(0)">POČETNA</a>
+            </li>
+            <li>
+               <a class="position-relative" href="javascript:void(0)">TRGOVINA</a>
+            </li>
+            <li>
+               <a class="position-relative" href="javascript:void(0)">AKCIJA </a>
+            </li>
+            <li>
+               <a class="position-relative" href="javascript:void(0)">DEKORACIJE ZA DOM</a>
+            </li>
+            <li>
+               <a class="position-relative" href="javascript:void(0)">NOVO</a>
+            </li>
+            <li>
+               <a class="position-relative" href="javascript:void(0)">NEŠTO</a>
+            </li>
+         </ul>
+      </div>
+      <!-- main -->
+      <main>
+         <!-- My Account -->
+         <section class="shop-cart">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12">
+                     <h2 class="main-heading text-left">KOŠARICA</h2>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-12">
+                     <ul class="shop-step">
+                        <li class="active">
+                           <div class="media">
+                              <span>01</span>
+                              <div class="media-body">
+                                 <h5 class="mt-0">KOŠARICA</h5>
+                                 <p>Upravljanje liste proizvoda</p>
+                              </div>
+                           </div>
+                        </li>
+                        <li>
+                           <div class="media">
+                              <span>02</span>
+                              <div class="media-body">
+                                 <h5 class="mt-0">DOSTAVA I NAPLATA</h5>
+                                 <p>Pregled liste proizvoda</p>
+                              </div>
+                           </div>
+                        </li>
+                        <li>
+                           <div class="media">
+                              <span>03</span>
+                              <div class="media-body">
+                                 <h5 class="mt-0">POTVRDA</h5>
+                                 <p>Pregled i potvrda narudžbe</p>
+                              </div>
+                           </div>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-12 col-lg-8">
+                     <div class="table-responsive">
+                        <table class="table-bordered">
+                           <thead>
+                              <tr>
+                                 <th width="50">PROIZVOD</th>
+                                 <th></th>
+                                 <th>CIJENA</th>
+                                 <th width="140">KOLIČINA</th>
+                                 <th>UKUPNO</th>
+                                 <th width="80"></th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>
+                                    <img src="assets/images/product/1.png" alt="product">
+                                 </td>
+                                 <td> Proizvod 1</td>
+                                 <td class="text-gray">355 kn</td>
+                                 <td>
+                                    <div class="input-group number-spinner position-relative">
+                                       <span class="input-group-btn">
+                                       <button class="btn btn-default btn-minus" data-dir="dwn"><i class="icon-minus"></i></button>
+                                       </span>
+                                       <input type="text" class="form-control text-center" value="1">
+                                       <span class="input-group-btn">
+                                       <button class="btn btn-default btn-plus" data-dir="up"><i class="icon-plus"></i></button>
+                                       </span>
+                                    </div>
+                                 </td>
+                                 <td>355 kn</td>
+                                 <td>
+                                    <a href="javascript:void(0)"><i class="fa fa-close"></i></a>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <img src="assets/images/product/2.png" alt="product">
+                                 </td>
+                                 <td> Proizvod 1</td>
+                                 <td class="text-gray">355 kn</td>
+                                 <td>
+                                    <div class="input-group number-spinner position-relative">
+                                       <span class="input-group-btn">
+                                       <button class="btn btn-default btn-minus" data-dir="dwn"><i class="icon-minus"></i></button>
+                                       </span>
+                                       <input type="text" class="form-control text-center" value="1">
+                                       <span class="input-group-btn">
+                                       <button class="btn btn-default btn-plus" data-dir="up"><i class="icon-plus"></i></button>
+                                       </span>
+                                    </div>
+                                 </td>
+                                 <td>355 kn</td>
+                                 <td>
+                                    <a href="javascript:void(0)"><i class="fa fa-close"></i></a>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <img src="assets/images/product/3.png" alt="product">
+                                 </td>
+                                 <td> Proizvod 1</td>
+                                 <td class="text-gray">355 kn</td>
+                                 <td>
+                                    <div class="input-group number-spinner position-relative">
+                                       <span class="input-group-btn">
+                                       <button class="btn btn-default btn-minus" data-dir="dwn"><i class="icon-minus"></i></button>
+                                       </span>
+                                       <input type="text" class="form-control text-center" value="1">
+                                       <span class="input-group-btn">
+                                       <button class="btn btn-default btn-plus" data-dir="up"><i class="icon-plus"></i></button>
+                                       </span>
+                                    </div>
+                                 </td>
+                                 <td>355 kn</td>
+                                 <td>
+                                    <a href="javascript:void(0)"><i class="fa fa-close"></i></a>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </div>
+                     <div class="row cart-footer">
+                        <div class="col-sm-6">
+                           <div class="form-group">
+                              <input type="text" class="form-control" placeholder="Kupon kod">
+                              <span>PRIMIJENI KUPON</span>
+                           </div>
+                        </div>
+                        <div class="col-sm-6 text-right">
+                           <a href="javascript:void(0)" class="btn btn-light">OSVJEŽI KOŠARICU</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-12 col-lg-4 right-sidebar">
+                     <div class="card inovice-block product-brand">
+                        <p>KOŠARICA</p>
+                        <ul>
+                           <li>
+                              UKUPNO <span>100 kn</span>
+                           </li>
+                           <li>
+                              DOSTAVA 
+                              <span>
+                                 <ul class="inovice-checkbox">
+                                    <li>
+                                       <div class="form-group">
+                                          <input type="checkbox" id="brand1">
+                                          <label for="brand1">Besplatna dostava</label>
+                                       </div>
+                                    </li>
+                                    <li>
+                                       <div class="form-group">
+                                          <input type="checkbox" id="brand2">
+                                          <label for="brand2">Flat rate: 50 kn</label>
+                                       </div>
+                                    </li>
+                                    <li>
+                                       <div class="form-group">
+                                          <input type="checkbox" id="brand3">
+                                          <label for="brand3">Osobno preuzimanje: 24 kn</label>
+                                       </div>
+                                    </li>
+                                    <li>
+                                       Dostava u HR.
+                                    </li>
+                                    <li class="float-right">
+                                       <a href="javascript:void(0)"> PROMIJENI ADRESU</a>
+                                    </li>
+                                 </ul>
+                              </span>
+                           </li>
+                           <li>
+                              PDV <span>23 kn</span>
+                           </li>
+                           <li>
+                              TOTAL <span> 555 kn</span>
+                           </li>
+                        </ul>
+                     </div>
+                     <a href="checkout.html" class="btn btn-dark btn-block mt-0">NASTAVI NA KUPNJU</a>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+      <!-- Footer -->
+      <footer>
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12 order-2 order-md-1">
+                  <div class="row email-block text-center">
+                     <div class="col-md-12">
+                        <h3>PRIJAVITE SE NA NAŠ NEWSLETTER</h3>
+                        <p>Pratite promocije, akcije i budite u toku, očekuju vas popusti i iznenađenja</p>
+                        <input type="text" class="form-control" placeholder="Vaša email adresa">
+                        <button type="submit" class="btn btn-primary">PRIJAVI SE</button>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-12 order-1 order-md-2">
+                  <div class="row">
+                     <div class="col-md-12 col-lg-3 footer-info">
+                        <img class="footer-img" src="assets/images/logo-footer.png" alt="logo">
+                        <p>Zagrebačka 28, 40000 Čakovec <br />
+                           HRVATSKA
+                        </p>
+                        <p>
+                           prodaja@printex.hr <br />
+                           +385 345-334
+                        </p>
+                        <ul class="social-links">
+                           <li><a href="javascript:void(0)"><i class="icon-fb"></i></a></li>
+                           <li><a href="javascript:void(0)"><i class="icon-tw"></i></a></li>
+                           <li><a href="javascript:void(0)"><i class="icon-insta"></i></a></li>
+                           <li><a href="javascript:void(0)"><i class="icon-uniE900"></i></a></li>
+                           <li><a href="javascript:void(0)"><i class="icon-pinta"></i></a></li>
+                        </ul>
+                     </div>
+                     <div class="col-md-12 col-lg-9">
+                        <div class="row">
+                           <div class="col-sm-6 col-md-3 col-lg-3">
+                              <h6>O nama</h6>
+                              <ul>
+                                 <li><a href="javascript:void(0)"> O nama </a></li>
+                                 <li><a href="javascript:void(0)">Često postavljana pitanja</a></li>
+                                 <li><a href="javascript:void(0)">Mapa stranica</a></li>
+                                 <li><a href="javascript:void(0)">Novosti</a></li>
+                                 <li><a href="javascript:void(0)">Kontakt</a></li>
+                              </ul>
+                           </div>
+                           <div class="col-sm-6 col-md-3 col-lg-3">
+                              <h6>Trgovina</h6>
+                              <ul>
+                                 <li><a href="javascript:void(0)"> 
+                                    Pravila o privatnosti
+                                    </a>
+                                 </li>
+                                 <li><a href="javascript:void(0)">Plaćanje i dostava</a>
+                                 <li><a href="javascript:void(0)">Jednostrani raskid ugovora</a>
+                                 <li><a href="javascript:void(0)">Reklamacija i povrat</a>
+                                 <li><a href="javascript:void(0)">Pisani prigovor potrošača</a>
+                              </ul>
+                           </div>
+                           <div class="col-sm-6 col-md-3 col-lg-3">
+                              <h6>Kategorije</h6>
+                              <ul>
+                                 <li><a href="javascript:void(0)">Tapete
+                                    </a>
+                                 </li>
+                                 <li><a href="javascript:void(0)">Naljepnice </a></li>
+                                 <li><a href="javascript:void(0)">Ukrasi </a></li>
+                                 <li><a href="javascript:void(0)">Paketi </a></li>
+                                 <li><a href="javascript:void(0)">Pokloni </a></li>
+                                 <li><a href="javascript:void(0)"> Svašta nešto </a></li>
+                              </ul>
+                           </div>
+                           <div class="col-sm-6 col-md-3 col-lg-3">
+                              <h6>RADNO VRIJEME</h6>
+                              <ul>
+                                 <li>Pon – pet: 08:00 – 17:00
+                                 </li>
+                                 <li>Sub: 09:00 – 15:00</li>
+                                 <li>Nedjelja: ne radimo</li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <div class="copy-right">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <p>©2021 PRINTEX</p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <a href="javascript:void(0)" id="stop" class="scrollTop" style="opacity: 1;"><i class="fa fa-angle-up"></i></a>
+      <!-- JQuery  -->
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/js/owl.carousel.min.js"></script>
+      <script>
+         function openNav() {
+           document.getElementById("mySidenav").style.width = "250px";
+         }
+         
+         function closeNav() {
+           document.getElementById("mySidenav").style.width = "0";
+         }
+      </script>
+      
+      
+      <script>
+         // BY KAREN GRIGORYAN
+         
+         $(document).ready(function() {
+         /******************************
+          BOTTOM SCROLL TOP BUTTON
+         ******************************/
+         
+         // declare variable
+         var scrollTop = $(".scrollTop");
+         
+         $(window).scroll(function() {
+         // declare variable
+         var topPos = $(this).scrollTop();
+         
+         // if user scrolls down - show scroll to top button
+         if (topPos > 80) {
+          $(scrollTop).css("opacity", "1");
+         
+         } else {
+          $(scrollTop).css("opacity", "0");
+         }
+         
+         }); // scroll END
+         
+         //Click event to scroll to top
+         $(scrollTop).click(function() {
+         $('html, body').animate({
+          scrollTop: 0
+         }, 1000);
+         return false;
+         
+         }); 
+         
+         }); // ready() END
+         
+         AOS.init({
+            duration: 1200,
+         });
+         
+      </script>
+      <script>
+         $(document).on('click', '.number-spinner button', function () {    
+         var btn = $(this),
+         oldValue = btn.closest('.number-spinner').find('input').val().trim(),
+         newVal = 0;
+         
+         if (btn.attr('data-dir') == 'up') {
+         newVal = parseInt(oldValue) + 1;
+         } else {
+         if (oldValue > 1) {
+         newVal = parseInt(oldValue) - 1;
+         } else {
+         newVal = 1;
+         }
+         }
+         btn.closest('.number-spinner').find('input').val(newVal);
+         });
+      </script>
+   </body>
+</html>
